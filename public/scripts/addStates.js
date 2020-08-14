@@ -1,6 +1,6 @@
 async function getUsers() {
     try {
-        const states = await fetch("http://localhost:3000/json");
+        const states = await fetch("https://warm-spire-30010.herokuapp.com/json");
         const data = await states.json();
         showStates(data);
         showDeaths(data);
