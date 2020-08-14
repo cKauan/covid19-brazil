@@ -8,7 +8,6 @@ nunjucks.configure('src/views', {
     noCache: true,
     autoescape: true
 })
-var port_number = server.listen(process.env.PORT || 3000);
 app
    .use(express.static('public/styles'))
    .use(express.static('public/scripts'))
@@ -22,4 +21,4 @@ app
        const { data } = await axios('https://covid19-brazil-api.now.sh/api/report/v1')
        return res.json(data);
    })
-   .listen(port_number)
+   .listen(process.env.PORT || 5000);
