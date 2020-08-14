@@ -1,0 +1,61 @@
+.content {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+}
+.content .card {
+    color: var(--text-color-lighter);
+    background-color: var(--background-color-light);
+    margin-top: 2rem;
+    width: 45%;
+    border-radius: 0.8rem; 
+    border: 2px solid transparent;
+    transition: .2s;
+   
+}
+.content .card:hover {
+    border: 2px solid var(--color-purple-rocketseat);
+}
+.content .card + .card:hover {
+    border: 2px solid red;
+}
+.content .card h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 2rem;
+    border-bottom: 1px solid var(--text-color-shadowness);
+}
+.content .card ul {
+    font-size: 2rem;
+    padding: 0 2.5rem;
+}
+.content .card ul li {
+    display: flex;
+    margin: 2.2rem 0;
+    justify-content: space-between;
+}
+.content .card ul li span {
+    display: flex;
+    align-items: center;
+    gap: 1.7rem
+}
+.content .card ul li img {
+    width: 2.8rem;
+    height: 2rem;
+}
+.content .card ul li p {
+    color: yellowgreen;
+    font-weight: bold;
+}
+.content .card + .card ul li p {
+    color: #df3333;
+}
+@media (max-width: 1024px) {
+    .content {
+        flex-direction: column;
+    }
+    .content .card {
+        width: 100%;
+    }
+}
