@@ -35,6 +35,9 @@ node src/server.js
 ## :raised_hand: Contribuições
 Para sugestões, abra um "issue", sinta-se confortável para o fazer.
 
+## :muscle: Motivação
+Precisava praticar o uso de API, então resolvi fazer um mini-projetinho que me ajudasse a aprender esse assunto.
+
 ## :scroll: Licença
 [MIT](https://choosealicense.com/licenses/mit/)
 <br>
