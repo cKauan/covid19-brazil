@@ -4,10 +4,10 @@ Mini-Projeto com website mostrando dados da covid no Brasil feito com ReactJS.
 https://ckauancovid19brasil.herokuapp.com/
 ## :closed_book: Uso
 <ul>
-<li>Clone o repositório</li>
+<li>Clone o repositório na branch React</li>
   
 ```bash
-git clone https://github.com/cKauan/covid19-brazil.git
+git clone -b react https://github.com/cKauan/covid19-brazil.git
 ```
 <li>Adicione todas as dependências ao projeto</li>
 
@@ -17,13 +17,13 @@ npm install
 <li>Inicie a aplicação com o seguinte comando</li>
 
 ```bash
-node src/server.js
+npm run start
 ```
 </ul>
 
 ## :brain: Tecnologias Utilizadas 
 <p align="left"><img src="https://devicons.github.io/devicon/devicon.git/icons/javascript/javascript-plain.svg" alt="javascript" width="40" height="40"/>
-  <img src="https://devicons.github.io/devicon/devicon.git/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40"/>
+  <img src="https://devicon.dev/devicon.git/icons/react/react-original.svg" alt="react" width="40" height="40"/>
   <img src="https://devicons.github.io/devicon/devicon.git/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> 
   <img src="https://devicons.github.io/devicon/devicon.git/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/>
   <br>
