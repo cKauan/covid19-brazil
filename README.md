@@ -1,7 +1,6 @@
-# <img align="center" src="https://ckauancovid19brasil.herokuapp.com/logo.svg" alt="react" width="40" height="40"/> Covid 19
+# :book: Covid 19
 Mini-Projeto com website mostrando dados da covid no Brasil.
-## :computer: Website
-https://ckauancovid19brasil.herokuapp.com/
+
 ## :closed_book: Uso
 <ul>
 <li>Clone o repositório</li>
